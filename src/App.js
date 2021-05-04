@@ -1,5 +1,6 @@
 import React from 'react'
 import Login from './pages/Login.js'
+import Register from './pages/Register'
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,6 +12,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/login" component={Login} />
+          <Route path="/register" component={Register} />
           {/* <Route path="/" component={Home} /> */}
         </Switch>
       </Router>
